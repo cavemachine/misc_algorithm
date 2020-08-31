@@ -4,7 +4,8 @@
 #include <stdbool.h>
 
 #define sz 30
-
+// comment
+// comment
 int main() {
     
     srand(time(NULL));
