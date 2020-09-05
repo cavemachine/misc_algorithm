@@ -30,11 +30,12 @@ int selection_s(int num[10]) {
     }
    return 0; 
 }
+
 int main() {
+
     int numbers[10] = {23, 2, 5, 8, 3, 43, 24, 78, 13, 9};
     selection_s(numbers);    
-    //int sorted[10];
-    //sorted = selection_s(numbers);
+    
     for (int j = 0; j < 10; j++) {
         printf("%i ", numbers[j]);
     }
