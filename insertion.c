@@ -15,6 +15,7 @@ int main () {
            numbers[c_pos] = numbers[c_pos - 1];
            numbers[c_pos - 1] = tmp;
            // swap end
+
            c_pos--;
        }
        init_c_pos++;
